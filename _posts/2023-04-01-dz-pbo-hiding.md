@@ -47,8 +47,8 @@ Among the [patchnotes for this update](https://dev.arma3.com/post/spotrep-00082)
 Bohemia finally took a stand after years of cheaters abusing such a simple integrity check. They implemented more advanced integrity checks which I won't disclose here.
 
 ## HIDING PBOS IN DAYZ
-DayZ and Arma 3 share little in common. DayZ even utilizes the new [Enfusion engine](https://enfusionengine.com/). However, a very apparent common denominator is poor security.
-A prime example of this lackluster security is the lack of the updated addon security implemented in Arma's 1.86 update. That's right, DayZ never updated their addon security and is still vulnerable to the same PBO hider attacks that Arma 3 was. 
+DayZ and Arma 3 have little in common. DayZ even utilizes the new [Enfusion engine](https://enfusionengine.com/). However, a very apparent common denominator is poor security.
+A prime example of this lackluster security is the absence of the updated addon security implemented in Arma's 1.86 update. That's right, DayZ never updated their addon security and is still vulnerable to the same PBO hider attacks that Arma 3 was. 
 
 ### IMPLEMENTATION
 The implementation of such a PBO hider for DayZ is *identical* to an implementation for Arma 3 and is [extremely](https://github.com/Sherman0236/PBO-Ninja/blob/main/PBO-Ninja/GUI.cpp#L75) [simplistic](https://github.com/Sherman0236/PBO-Ninja/blob/main/PBO-Ninja/SDK/Engine.cpp#L36). 
@@ -76,5 +76,5 @@ The implementation of such a PBO hider for DayZ is *identical* to an implementat
 Although this technique can be used in malicious ways, this post is meant for educational purposes only. It's essential to understand the game's security mechanisms to create more secure and enjoyable gaming experiences.
 Please use this information responsibly and ethically. 
 
-#### Disclaimer
-Any information in this post could become outdated at any point in time. The content of this blog post is intended for educational purposes only. By reading this blog post, you agree to use the information solely for educational purposes and to abide by all applicable laws and regulations concerning the protection of intellectual property. The author and publisher of this blog post shall not be held responsible for any damages, direct or indirect, arising from the misuse of the information provided.
+> Any information in this post could become outdated at any point in time. The content of this blog post is intended for educational purposes only. By reading this blog post, you agree to use the information solely for educational purposes and to abide by all applicable laws and regulations concerning the protection of intellectual property. The author and publisher of this blog post shall not be held responsible for any damages, direct or indirect, arising from the misuse of the information provided.
+{: .prompt-warning }
