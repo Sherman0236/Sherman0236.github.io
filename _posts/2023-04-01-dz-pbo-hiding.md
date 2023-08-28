@@ -13,7 +13,7 @@ The ease of use, lack of prerequisites, and [public nature](https://www.unknownc
 
 ## WHAT IS A PBO?
 The [.PBO file format](https://community.bistudio.com/wiki/PBO_File_Format) first premiered with Operation Flashpoint in the Summer of 2001. A PBO or "packed bank of files" is
-similar in purpose to a zip file. It simply serves as a medium for storing and compressing files and folders. Apple's LZSS 
+similar in purpose to a zip file. It simply serves as a medium for storing and compressing files and folders where Apple's open source [LZSS](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Storer%E2%80%93Szymanski) 
 compression can be selectively used on individual files within a PBO. Two types of PBO exist: addon and mission. 
 A mission PBO instructs the game on how to construct a playable scenario. An addon PBO is what might be referred to in
 other gaming communities as a mod. Many of Bohemia Interactive's games such as DayZ and Arma 3 can be configured to load any PBO file
